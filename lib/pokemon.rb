@@ -4,7 +4,6 @@ class Pokemon
   attr_accessor :name, :type, :id, :db 
   
   def initialize(id:, name:, type:, db:)
-=======
   attr_accessor :name, :type, :id
   attr_reader :db 
   
